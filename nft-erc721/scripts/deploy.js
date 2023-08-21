@@ -1,6 +1,6 @@
 async function main() {
     const KieneNFT = await hre.ethers.getContractFactory("KieneNFT");
-    const kieneNFT = await KieneNFT.deploy("KieneNFT", "MCL");
+    const kieneNFT = await KieneNFT.deploy("KieneNFT", "KNFT");
   
     await kieneNFT.deployed();
   
