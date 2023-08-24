@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SafeMath.sol": "MyContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SafeMath.sol": {
+			"keccak256": "0x68e8208b8f195d08b066a0f31475b4d94073d1f6e36556ea7822f0875cba4fc7",
+			"urls": [
+				"bzz-raw://6b1a14887d76d1fbb306c7b1d019ca42cf64b5a6fd05a1f1be57557e5db40ff6",
+				"dweb:/ipfs/Qmcs4q33TSkM2XETvRoq5vLXCFeXVBw3mbBxGz2rtpY6XC"
+			]
+		}
+	},
+	"version": 1
+}
